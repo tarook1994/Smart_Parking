@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "316156748857",
+    "firebase_url": "https://iot-project-a05bb.firebaseio.com",
+    "project_id": "iot-project-a05bb",
+    "storage_bucket": "iot-project-a05bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316156748857:android:8a6f125cb453d044",
+        "android_client_info": {
+          "package_name": "com.example.alaa.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316156748857-f1q3flqvttsb6v6kl34qopigulerd678.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmoeauzx2Aupl810DNxRtC8jqE6v_ODEc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

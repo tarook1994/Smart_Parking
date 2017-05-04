@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alaa.iot.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:isScrollContainer="true"
+        android:overScrollMode="always"
+        android:scrollIndicators="right"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/Displaybox"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Or its MAC Address" />
+
+        <TextView
+            android:id="@+id/Displaybox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/FindBT"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:text="Connection state"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <Button
+            android:id="@+id/FindBT"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/GetData"
+            android:background="@color/button"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:text="Find Bluetooth"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+        <Button
+            android:id="@+id/GetData"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/button"
+            android:textColor="@color/white"
+            android:text="Get Data"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="266dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Please enter the device name" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/FindBT"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
